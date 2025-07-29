@@ -52,6 +52,30 @@
 
                 </li>
 
+                <li
+                    class="sidebar-item active ">
+                    <a href="{{ route('roles.index') }}" class='sidebar-link'>
+                        <i class="bi bi-grid-fill"></i>
+                        <span>Roles & Permissions</span>
+                    </a>
+
+
+                </li>
+
+                <li
+                    class="sidebar-item  ">
+                    <a href="{{ route('logout') }}"  onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();" class='sidebar-link'>
+                        <i class="bi bi-grid-fill"></i>
+                        <span>logout</span>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                            @csrf
+                        </form>
+                    </a>
+
+
+                </li>
+
 
 
 
