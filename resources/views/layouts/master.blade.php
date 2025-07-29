@@ -27,7 +27,7 @@
         </header>
 
         <div class="page-heading">
-            <h3>Dashboard</h3>
+            <h3>Dashboardsss</h3>
         </div>
         <div class="page-content">
             <section class="row">
@@ -135,9 +135,9 @@
         </footer>
     </div>
 </div>
-<script src="{{ asset('assets/static/js/components/dark.js') }}"></script>
-<script src="{{ asset('assets/extensions/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
 
+<script src="{{ asset('assets/extensions/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
+<script src="{{ asset('assets/static/js/components/dark.js') }}"></script>
 
 <script src="{{ asset('assets/compiled/js/app.js') }}"></script>
 <!-- Need: Apexcharts -->
