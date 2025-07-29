@@ -4,7 +4,7 @@ use App\Http\Controllers\RolesAndPermissionsController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('sample');
+    return view('layouts.master');
 });
 
 Auth::routes();
