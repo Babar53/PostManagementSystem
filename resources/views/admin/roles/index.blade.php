@@ -18,7 +18,7 @@
                     <table class="table table-bordered data-table">
                         <thead>
                         <tr>
-                            <th width="20%">No</th>
+                            <th width="10%">No</th>
                             <th width="60%">Name</th>
                             <th width="20%">Action</th> <!-- slightly wider for two buttons -->
                         </tr>
