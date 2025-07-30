@@ -17,6 +17,9 @@ Route::get('/post-create', [App\Http\Controllers\PostController::class, 'create'
 Route::controller(RolesAndPermissionsController::class)->group(function () {
     Route::get('/roles-list', 'index')->name('roles.index');
     Route::get('/roles-create', 'create')->name('roles.create');
+    Route::get('/roles-edit/{role_id}', 'create')->name('roles.edit');
+    Route::get('/roles-view/{role_id}', 'create')->name('roles.show');
+    Route::get('/roles-delete/{role_id}', 'destroy')->name('roles.delete');
 
 });
 
